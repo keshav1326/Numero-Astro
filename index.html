@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Numerology</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="logo">Numero Astro</h1>
+    <ul class="nav-links">
+      <li class="active"><a href="#"></a>Home</li>
+      <li><a href="#"></a>Explore</li>
+      <li><a href="#"></a>About</li>
+      <li class="ctn"><a href="#"></a>Contact</li>
+    </ul>
+    <img src="./Assets/menu-btn.jpg" alt="" class="menu-btn">
+  </nav>
+  <header>
+    <div class="header-content">
+      <h2>Welcome to Divine Digits: Unveil the Mysteries of Your Numbers!</h2>
+      <div class="line"></div>
+      <h1>Divine Digits</h1>
+      <a class="ctn">Learn More</a>
+    </div>
+  </header>
+  
+  <section class="events">
+    <div class="title">
+      <h1> Numerology Tools</h1>
+      <div class="line"></div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img class="toolsimage"src="./Assets/Tools1.jpg" alt="">
+        <h4>Date Calculator</h4>
+        <p>You can calculate BN DN, addition of contact number by just adding the DOB</p>
+        <a href="./Date_Calculator1.html"class="ctn">Get Started</a>
+      </div>
+      <div class="col">
+        <img class="toolsimage" src="./Assets/Tools2.jpg" alt="">
+        <h4>Date Calculator</h4>
+        <p>You can calculate BN DN, addition of contact number by just adding the DOB</p>
+        <a class="ctn">Get Started</a>
+      </div>
+      <div class="col">
+        <img class="toolsimage"src="./Assets/Tools1.jpg" alt="">
+        <h4>Date Calculator</h4>
+        <p>You can calculate BN DN, addition of contact number by just adding the DOB</p>
+        <a class="ctn">Get Started</a>
+      </div>
+    </div>
+  </section>
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+      navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
+</body>
+</html>
